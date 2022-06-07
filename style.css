@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-visual{
+    padding-top: 50px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top-visu{
+    width: 100%;
+    list-style: none;
+}
+
+.top-visu :nth-child(1) ,.top-visu :nth-child(3),.top-visu :nth-child(5),.top-visu :nth-child(7){
+    background-color: rgb(200, 195, 195);
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    /* background-color: blue; */
+}
+
+.bottom-visu{
+    /* height: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.visual-contents{
+    width: 30%;
+    height: 200px;
+    /* display: flex; */
+    background-color: rgb(244, 244, 111);
+    /* flex-wrap: nowrap; */
+}
+
+.bottom-visu :nth-child(2) , .bottom-visu :nth-child(5) ,.bottom-visu :nth-child(8){
+    margin: 0 5%;
+}
+
+.bottom-visu :nth-child(1) , .bottom-visu :nth-child(5) ,.bottom-visu :nth-child(9){
+    background-color: rgb(249, 127, 83);
+}
+
+.bottom-visu :nth-child(1) , .bottom-visu :nth-child(2) ,.bottom-visu :nth-child(3),
+.bottom-visu :nth-child(4) , .bottom-visu :nth-child(5) ,.bottom-visu :nth-child(6){
+    margin-bottom: 40px;
+}
